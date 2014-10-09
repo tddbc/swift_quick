@@ -15,6 +15,8 @@
 		A916053E19E6A12E009CF50D /* TddbcSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916053D19E6A12E009CF50D /* TddbcSampleTests.swift */; };
 		A916056619E6A3CA009CF50D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916055F19E6A3BB009CF50D /* Nimble.framework */; };
 		A916056719E6A3CE009CF50D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A916055019E6A3A2009CF50D /* Quick.framework */; };
+		A916056919E6A426009CF50D /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916056819E6A426009CF50D /* Sample.swift */; };
+		A916056B19E6A458009CF50D /* SampleSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A916056A19E6A458009CF50D /* SampleSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		A916053D19E6A12E009CF50D /* TddbcSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TddbcSampleTests.swift; sourceTree = "<group>"; };
 		A916054719E6A3A2009CF50D /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = ../../Vendor/Quick/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		A916055719E6A3BB009CF50D /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = ../../Vendor/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
+		A916056819E6A426009CF50D /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		A916056A19E6A458009CF50D /* SampleSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			children = (
 				A916052719E6A12E009CF50D /* AppDelegate.swift */,
 				A916052919E6A12E009CF50D /* ViewController.swift */,
+				A916056819E6A426009CF50D /* Sample.swift */,
 				A916052B19E6A12E009CF50D /* Main.storyboard */,
 				A916052E19E6A12E009CF50D /* Images.xcassets */,
 				A916053019E6A12E009CF50D /* LaunchScreen.xib */,
@@ -163,6 +168,7 @@
 				A916055719E6A3BB009CF50D /* Nimble.xcodeproj */,
 				A916054719E6A3A2009CF50D /* Quick.xcodeproj */,
 				A916053D19E6A12E009CF50D /* TddbcSampleTests.swift */,
+				A916056A19E6A458009CF50D /* SampleSpec.swift */,
 				A916053B19E6A12E009CF50D /* Supporting Files */,
 			);
 			path = TddbcSampleTests;
@@ -368,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A916052A19E6A12E009CF50D /* ViewController.swift in Sources */,
+				A916056919E6A426009CF50D /* Sample.swift in Sources */,
 				A916052819E6A12E009CF50D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A916056B19E6A458009CF50D /* SampleSpec.swift in Sources */,
 				A916053E19E6A12E009CF50D /* TddbcSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
